@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .app_container {
+    @apply xl:pt-[26px] xl:pr-[80px] xl:pb-[26px] xl:pl-[80px] 
+    lg:pr-[60px]  lg:pl-[60px]
+    md:pr-[40px]  md:pl-[40px]
+    sm:pr-[20px]  sm:pl-[20px]
+
+  }
+}
