@@ -39,9 +39,9 @@ export const Header = () => {
         </ul>
 
         <ul
-          className={`pt-5 app_container absolute top-[80px] left-0 h-screen w-full bg-white gap-5 flex flex-col transform transition-transform duration-300 ease-in-out
+          className={`pt-[32px] app_container absolute top-[80px] left-0 h-screen w-full font-inter bg-white gap-[32px] flex flex-col transform transition-transform duration-300 ease-in-out
           ${mobileMenuOpen ? "translate-x-0" : "translate-x-full"} md:hidden`}>
-          <li>Home</li>
+          <li>HOME</li>
           <li>SERVICES</li>
           <li>ABOUT US</li>
           <li>CONTACT US</li>
