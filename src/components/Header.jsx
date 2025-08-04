@@ -7,7 +7,7 @@ export const Header = () => {
 
   return (
     <div>
-      <nav className="app_container fixed w-full h-[80px] flex items-center justify-between   bg-[#4F46E5]">
+      <nav className="z-10 app_container fixed w-full h-[80px] flex items-center justify-between   bg-[#4F46E5]">
         <div className="flex lg:flex-1">
           <img alt="logo" src={logo} style={{ width: "180px" }} />
         </div>
