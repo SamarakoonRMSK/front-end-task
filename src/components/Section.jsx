@@ -13,7 +13,7 @@ export const Section = ({image,reverse}) => {
                 </div>
                 <div className='flex justify-center md:justify-start'>
                     <button className="rounded-md     h-[38px] w-[129px] bg-[#F28D35]">
-                        <span className="text-[14px] text-white font-bold leading-[100%] tracking-[0.2px]">Learn More</span>
+                        <span className="text-[14px] text-white font-bold leading-[100%] tracking-[0.2px]">LERN MORE</span>
 
                         <span className="group-hover:rotate-90 duration-300"></span>
                     </button>
