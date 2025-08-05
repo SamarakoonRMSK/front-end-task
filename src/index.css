@@ -13,9 +13,9 @@
     @apply lg:h-[700px]  md:h-[448px] sm:h-[218px]
   }
   .getFreeConsultation{
-    @apply sm:max-w-full sm:top-[218px]  pt-[24px] pb-[32px] sm:px-[20px]
-    md:top-[448px]
-    lg:left-[60px] lg:w-[622px] lg:px-[40px] lg:top-[350px]
+    @apply sm:max-w-full sm:top-[218px] sm:h-[294px]  pt-[24px] pb-[32px] sm:px-[20px]
+    md:top-[448px] md:px-[40px] md:h-[258px]
+    lg:left-[60px] lg:w-[622px] lg:px-[40px] lg:top-[350px] lg:h-[306px]
     xl:left-[80px]
   }
 }
