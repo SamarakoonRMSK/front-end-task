@@ -5,7 +5,7 @@ import section_image_2 from "../assets/section_image_2.png";
 
 export const Hero = () => {
   return (
-    <div>
+    <div >
       <div className="w-full">
         <div
           className="bg_image relative top-[80px] left-0 w-full  bg-cover bg-center"

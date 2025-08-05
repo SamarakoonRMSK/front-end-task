@@ -20,7 +20,8 @@ export const Faq = () => {
   ];
 
   return (
-    <div className='mx-auto sm:w-[334px] md:w-[686px] lg:w-[896px] xl:w-[846px] my-[40px] flex flex-col gap-[28px]'>
+    <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" className='mx-auto sm:w-[334px] md:w-[686px] lg:w-[896px] xl:w-[846px] my-[40px] flex flex-col gap-[28px]'>
         <div className=" bg-white">
       <h2 className="pb-[28px] text-center text-[#4F46E5] font-poppins font-semibold leading-[33px] tracking-[0.4px] sm:text-[27px]">Frequently asked questions</h2>
       <div className='flex flex-col gap-[28px]'>
