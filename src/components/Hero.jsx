@@ -1,5 +1,7 @@
 import background from "../assets/background.jpg";
 import { Section } from "./Section";
+import section_image_1 from "../assets/section_image.png"
+import section_image_2 from "../assets/section_image_2.png"
 
 export const Hero = () => {
   return (
@@ -19,8 +21,9 @@ export const Hero = () => {
         </div>
       </div>
     </div>
-    <div>
-      <Section/>
+    <div className="relative lg:mt-[80px] md:mt-[338px] sm:mt-[374px] py-[40px] flex flex-col gap-[40px]">
+      <Section image={section_image_1} reverse={false}/>
+      <Section image={section_image_2} reverse={true}/>
     </div>
     </div>
   );

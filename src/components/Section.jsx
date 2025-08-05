@@ -1,11 +1,9 @@
-import section_image_1 from "../assets/section_image.png"
-
-export const Section = () => {
+export const Section = ({image,reverse}) => {
     return (
-        <div className='relative lg:mt-[80px] md:mt-[338px] sm:mt-[374px] flex items-center sm:flex-col md:flex-row gap-[20px] xl:gap-[108px]
-        sm:w-[335px] sm:mx-auto md:w-[688px] py-[40px] lg:w-[896px] xl:w-[1064px] lg:h-[426px] xl:h-[494px]'>
+        <div className={`flex items-center  ${reverse ? "sm:flex-col-reverse md:flex-row-reverse":"sm:flex-col md:flex-row"} gap-[20px] xl:gap-[108px]
+        sm:w-[335px] sm:mx-auto md:w-[688px]  lg:w-[896px] xl:w-[1064px] lg:h-[426px] xl:h-[494px]`}>
             <div className="sm:w-[275px] lg:w-[346px] lg:h-[346px] xl:h-[414px] xl:w-[414px]">
-                <img alt='section_image_1' src={section_image_1} style={{ width: "100%" }} />
+                <img alt='section_image_1' src={image} style={{ width: "100%" }} />
             </div>
             <div>
             <div className='flex flex-col text-center md:text-left md:w-[393px] lg:w-[530px] xl:w-[542px] gap-[20px]'>
